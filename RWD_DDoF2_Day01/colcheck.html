@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+          
+          .flex-container{
+            display: flex;
+            flex-direction: column;
+            background-color: red;
+        }
+
+        .flex-container > div {
+            background-color: black;
+            color: yellow;
+            padding: 3px;
+            margin: 10px;
+            width: 100%;
+            text-align: center;
+        }
+        @media only screen and (min-width:768px){
+            
+        .flex-container{
+            display: flex;
+            flex-direction: row;
+            background-color: aqua;
+        }
+
+        .flex-container > div {
+            background-color: cadetblue;
+            padding: 3px;
+            margin: 10px;
+            width: 33%;
+            text-align: center;
+        }
+
+    }
+    </style>
+</head>
+<body>
+    <h1>Eviden</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est fuga dolor ut doloremque odit maxime maiores nulla nisi sit praesentium. Voluptatem quas laboriosam cumque in ab, officia dignissimos voluptatibus facere saepe autem optio est suscipit ex reprehenderit aspernatur pariatur magnam maiores aliquam, rem aliquid perspiciatis quae tempora vero temporibus? Id in aut repellat ipsum consectetur maiores eaque adipisci ea provident ullam reprehenderit, dicta unde! Doloremque dicta impedit inventore earum magnam assumenda expedita sequi maiores enim voluptate iusto, quam dignissimos consequuntur dolorem, ab delectus, pariatur id cupiditate necessitatibus suscipit omnis vero. Nemo illum quo illo error perspiciatis facere dolorem fugit unde.</p>
+    <div class="flex-container">
+        <div class="home">
+            <h2>Home</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error ullam odit et mollitia, nisi saepe voluptas temporibus ratione cumque veniam unde doloribus repellat ea voluptatem accusantium! Aliquam eius veniam officia debitis pariatur ducimus iste tempora explicabo modi quasi ad maxime dignissimos vitae, saepe nulla itaque maiores laudantium quod aut dolores.</p>
+        </div>
+        <div class="admin">
+            <h2>Admin</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error ullam odit et mollitia, nisi saepe voluptas temporibus ratione cumque veniam unde doloribus repellat ea voluptatem accusantium! Aliquam eius veniam officia debitis pariatur ducimus iste tempora explicabo modi quasi ad maxime dignissimos vitae, saepe nulla itaque maiores laudantium quod aut dolores.</p>
+        </div>
+        <div class="support">
+            <h2>Support</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error ullam odit et mollitia, nisi saepe voluptas temporibus ratione cumque veniam unde doloribus repellat ea voluptatem accusantium! Aliquam eius veniam officia debitis pariatur ducimus iste tempora explicabo modi quasi ad maxime dignissimos vitae, saepe nulla itaque maiores laudantium quod aut dolores.</p>
+        </div>
+    </div>
+</body>
+</html>

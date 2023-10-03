@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .menu{
+            float: left;
+        }
+        .menu ul{
+            list-style-type: none;
+        }
+
+        .menu li{
+            padding: 10px;
+            margin-bottom: 1px;
+            color: brown;
+            background-color: darkgray;
+        }
+        
+        .home{
+            float: left;
+        }
+
+        .admin{
+            float: left;
+
+        }
+
+        .support{
+            float: left;
+        }
+
+
+
+        @media only screen and (max-width:360px){
+            [class ="col-"]{
+                width: 100%;
+            }            
+        }
+
+        @media only screen and (min-width:360px){
+            [class ="col-"]{
+                width: 50%;
+            }            
+        }
+
+        @media only screen and (min-width:768px){
+        .col-1 {width: 8.33%;}
+        .col-2 {width: 16.66%;}
+        .col-3 {width: 25%;}
+        .col-4 {width: 33.33%;}
+        .col-5 {width: 41.66%;}
+        .col-6 {width: 50%;}
+        .col-7 {width: 58.33%;}
+        .col-8 {width: 66.66%;}
+        .col-9 {width: 75%;}
+        .col-10 {width: 83.33%;}
+        .col-11 {width: 91.66%;}
+        .col-12 {width: 100%;}
+    }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Eviden</h1>
+
+    </header>
+    <div class="menu col-2" >
+        <ul>
+            <li>Home</li>
+            <li>Admin</li>
+            <li>LoB</li>
+            <li>Support</li>
+            <li>ChatBot</li>
+        </ul>
+    </div>
+    <div class="home col-3">
+        <h2>Home</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error ullam odit et mollitia, nisi saepe voluptas temporibus ratione cumque veniam unde doloribus repellat ea voluptatem accusantium! Aliquam eius veniam officia debitis pariatur ducimus iste tempora explicabo modi quasi ad maxime dignissimos vitae, saepe nulla itaque maiores laudantium quod aut dolores.</p>
+    </div>
+    <div class="admin col-3">
+        <h2>Admin</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error ullam odit et mollitia, nisi saepe voluptas temporibus ratione cumque veniam unde doloribus repellat ea voluptatem accusantium! Aliquam eius veniam officia debitis pariatur ducimus iste tempora explicabo modi quasi ad maxime dignissimos vitae, saepe nulla itaque maiores laudantium quod aut dolores.</p>
+    </div>
+    <div class="support col-3">
+        <h2>Support</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error ullam odit et mollitia, nisi saepe voluptas temporibus ratione cumque veniam unde doloribus repellat ea voluptatem accusantium! Aliquam eius veniam officia debitis pariatur ducimus iste tempora explicabo modi quasi ad maxime dignissimos vitae, saepe nulla itaque maiores laudantium quod aut dolores.</p>
+    </div>
+</body>
+</html>
